@@ -1,0 +1,8 @@
+model_package/cnn_model/datasets/
+model_package/dist/
+model_package/build/
+
+.log
+
+__pycache__/
+*.pyc

@@ -1,0 +1,129 @@
+name: stylechecks
+run_id: install_deps
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 8
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\Aashi\AppData\Local\Temp
+env TMP: C:\Users\Aashi\AppData\Local\Temp
+env USERPROFILE: C:\Users\Aashi
+env LANG: en_US.UTF-8
+env SSL_CERT_FILE: C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\ssl\cacert.pem
+env PATH: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package\Scripts;C:\Users\Aashi\.conda\envs\large_dataset_deployment;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\mingw-w64\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\usr\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Scripts;C:\Users\Aashi\.conda\envs\large_dataset_deployment\bin;C:\ProgramData\anaconda3\condabin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Aashi\AppData\Local\Programs\Python\Python310;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PuTTY;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Users\Aashi\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Library\mingw-w64\bin;C:\ProgramData\anaconda3\Library\usr\bin;C:\ProgramData\anaconda3\Library\bin;C:\ProgramData\anaconda3\Scripts;.;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.5.0;C:\Users\Aashi\scoop\shims;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Aashi\AppData\Local\Microsoft\WindowsApps;C:\Users\Aashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\
+env PYTHONHASHSEED: 1000
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env TOX_ENV_NAME: stylechecks
+env TOX_WORK_DIR: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox
+env TOX_ENV_DIR: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package
+env VIRTUAL_ENV: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package
+env COLUMNS: 127
+env LINES: 10
+metadata pid: 24804
+cwd: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package
+allow: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package\Scripts\*
+cmd: pip install -r requirements/test_requirements.txt
+exit_code: 0
+Collecting pandas
+  Using cached pandas-2.3.1-cp39-cp39-win_amd64.whl (11.4 MB)
+Collecting scikit-learn
+  Using cached scikit_learn-1.6.1-cp39-cp39-win_amd64.whl (11.2 MB)
+Collecting opencv-python
+  Using cached opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl (39.0 MB)
+Collecting torchvision
+  Using cached torchvision-0.22.1-cp39-cp39-win_amd64.whl (1.7 MB)
+Collecting torch
+  Using cached torch-2.7.1-cp39-cp39-win_amd64.whl (216.0 MB)
+Collecting strictyaml
+  Using cached strictyaml-1.7.3-py3-none-any.whl (123 kB)
+Collecting ruamel.yaml
+  Using cached ruamel.yaml-0.18.14-py3-none-any.whl (118 kB)
+Collecting joblib
+  Using cached joblib-1.5.1-py3-none-any.whl (307 kB)
+Collecting pydantic
+  Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)
+Collecting pytest
+  Using cached pytest-8.4.1-py3-none-any.whl (365 kB)
+Collecting mypy
+  Using cached mypy-1.16.1-cp39-cp39-win_amd64.whl (9.5 MB)
+Collecting black
+  Using cached black-25.1.0-cp39-cp39-win_amd64.whl (1.4 MB)
+Collecting flake8
+  Using cached flake8-7.3.0-py2.py3-none-any.whl (57 kB)
+Collecting isort
+  Using cached isort-6.0.1-py3-none-any.whl (94 kB)
+Collecting tzdata>=2022.7
+  Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Collecting pytz>=2020.1
+  Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Collecting numpy>=1.22.4
+  Using cached numpy-2.0.2-cp39-cp39-win_amd64.whl (15.9 MB)
+Collecting python-dateutil>=2.8.2
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting threadpoolctl>=3.1.0
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting scipy>=1.6.0
+  Using cached scipy-1.13.1-cp39-cp39-win_amd64.whl (46.2 MB)
+Collecting pillow!=8.3.*,>=5.3.0
+  Using cached pillow-11.3.0-cp39-cp39-win_amd64.whl (7.0 MB)
+Collecting filelock
+  Using cached filelock-3.18.0-py3-none-any.whl (16 kB)
+Collecting networkx
+  Using cached networkx-3.2.1-py3-none-any.whl (1.6 MB)
+Collecting typing-extensions>=4.10.0
+  Using cached typing_extensions-4.14.1-py3-none-any.whl (43 kB)
+Collecting fsspec
+  Using cached fsspec-2025.5.1-py3-none-any.whl (199 kB)
+Collecting jinja2
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting sympy>=1.13.3
+  Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting ruamel.yaml.clib>=0.2.7
+  Using cached ruamel.yaml.clib-0.2.12-cp39-cp39-win_amd64.whl (118 kB)
+Collecting pydantic-core==2.33.2
+  Using cached pydantic_core-2.33.2-cp39-cp39-win_amd64.whl (2.0 MB)
+Collecting annotated-types>=0.6.0
+  Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting typing-inspection>=0.4.0
+  Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Collecting packaging>=20
+  Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Collecting exceptiongroup>=1
+  Using cached exceptiongroup-1.3.0-py3-none-any.whl (16 kB)
+Collecting iniconfig>=1
+  Using cached iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Collecting tomli>=1
+  Using cached tomli-2.2.1-py3-none-any.whl (14 kB)
+Collecting pygments>=2.7.2
+  Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Collecting pluggy<2,>=1.5
+  Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting colorama>=0.4
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting mypy_extensions>=1.0.0
+  Using cached mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Collecting pathspec>=0.9.0
+  Using cached pathspec-0.12.1-py3-none-any.whl (31 kB)
+Collecting platformdirs>=2
+  Using cached platformdirs-4.3.8-py3-none-any.whl (18 kB)
+Collecting click>=8.0.0
+  Using cached click-8.1.8-py3-none-any.whl (98 kB)
+Collecting mccabe<0.8.0,>=0.7.0
+  Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting pycodestyle<2.15.0,>=2.14.0
+  Using cached pycodestyle-2.14.0-py2.py3-none-any.whl (31 kB)
+Collecting pyflakes<3.5.0,>=3.4.0
+  Using cached pyflakes-3.4.0-py2.py3-none-any.whl (63 kB)
+Collecting six>=1.5
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting mpmath<1.4,>=1.1.0
+  Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp39-cp39-win_amd64.whl (15 kB)
+Installing collected packages: pytz, mpmath, tzdata, typing-extensions, tomli, threadpoolctl, sympy, six, ruamel.yaml.clib, pygments, pyflakes, pycodestyle, pluggy, platformdirs, pillow, pathspec, packaging, numpy, networkx, mypy_extensions, mccabe, MarkupSafe, joblib, isort, iniconfig, fsspec, filelock, colorama, annotated-types, typing-inspection, scipy, ruamel.yaml, python-dateutil, pydantic-core, opencv-python, mypy, jinja2, flake8, exceptiongroup, click, torch, strictyaml, scikit-learn, pytest, pydantic, pandas, black, torchvision
+Successfully installed MarkupSafe-3.0.2 annotated-types-0.7.0 black-25.1.0 click-8.1.8 colorama-0.4.6 exceptiongroup-1.3.0 filelock-3.18.0 flake8-7.3.0 fsspec-2025.5.1 iniconfig-2.1.0 isort-6.0.1 jinja2-3.1.6 joblib-1.5.1 mccabe-0.7.0 mpmath-1.3.0 mypy-1.16.1 mypy_extensions-1.1.0 networkx-3.2.1 numpy-2.0.2 opencv-python-4.12.0.88 packaging-25.0 pandas-2.3.1 pathspec-0.12.1 pillow-11.3.0 platformdirs-4.3.8 pluggy-1.6.0 pycodestyle-2.14.0 pydantic-2.11.7 pydantic-core-2.33.2 pyflakes-3.4.0 pygments-2.19.2 pytest-8.4.1 python-dateutil-2.9.0.post0 pytz-2025.2 ruamel.yaml-0.18.14 ruamel.yaml.clib-0.2.12 scikit-learn-1.6.1 scipy-1.13.1 six-1.17.0 strictyaml-1.7.3 sympy-1.14.0 threadpoolctl-3.6.0 tomli-2.2.1 torch-2.7.1 torchvision-0.22.1 typing-extensions-4.14.1 typing-inspection-0.4.1 tzdata-2025.2

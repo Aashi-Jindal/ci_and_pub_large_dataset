@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+opencv-python
+torchvision
+torch
+strictyaml
+ruamel.yaml
+joblib
+pydantic

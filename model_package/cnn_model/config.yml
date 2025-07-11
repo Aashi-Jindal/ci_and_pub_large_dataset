@@ -1,0 +1,31 @@
+# Package Overview
+package_name: cnn_model
+
+model_name: cnn_model_weights
+model_save_file: cnn_model_output_epoch_{}_v
+
+target_encoder_name: target_encoder.pkl
+
+IMAGE_SIZE: 150
+
+n_classes: 12
+
+data_columns:
+  - image
+  - target
+
+test_size: 0.2
+
+random_state: 0
+
+batch_size: 64
+
+kernel_size: 3
+out_channel1: 32
+out_channel2: 64
+out_channel3: 128
+dropout_p: 0.3
+dense_neurons: 256
+
+lr: 0.001
+epochs: 10

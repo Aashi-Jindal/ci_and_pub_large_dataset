@@ -1,0 +1,32 @@
+name: lint
+run_id: commands[0]
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 8
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\Aashi\AppData\Local\Temp
+env TMP: C:\Users\Aashi\AppData\Local\Temp
+env USERPROFILE: C:\Users\Aashi
+env LANG: en_US.UTF-8
+env SSL_CERT_FILE: C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\ssl\cacert.pem
+env PATH: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package\Scripts;C:\Users\Aashi\.conda\envs\large_dataset_deployment;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\mingw-w64\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\usr\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Library\bin;C:\Users\Aashi\.conda\envs\large_dataset_deployment\Scripts;C:\Users\Aashi\.conda\envs\large_dataset_deployment\bin;C:\ProgramData\anaconda3\condabin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Aashi\AppData\Local\Programs\Python\Python310;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PuTTY;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Users\Aashi\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Library\mingw-w64\bin;C:\ProgramData\anaconda3\Library\usr\bin;C:\ProgramData\anaconda3\Library\bin;C:\ProgramData\anaconda3\Scripts;.;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.5.0;C:\Users\Aashi\scoop\shims;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Aashi\AppData\Local\Microsoft\WindowsApps;C:\Users\Aashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Aashi\AppData\Local\Programs\Python\Python310\
+env PYTHONHASHSEED: 1000
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env TOX_ENV_NAME: lint
+env TOX_WORK_DIR: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox
+env TOX_ENV_DIR: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package
+env VIRTUAL_ENV: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package
+env COLUMNS: 127
+env LINES: 10
+metadata pid: 5648
+cwd: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package
+allow: D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\.tox\test_package\Scripts\*
+cmd: isort cnn_model tests
+exit_code: 0
+Fixing D:\Personal Documents\Learning\Udemy\plant_seedlings_dataset\model_package\tests\conftest.py

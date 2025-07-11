@@ -1,0 +1,18 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./cnn_model/*
+
+include cnn_model/datasets/*
+include cnn_model/trained_models/*.pkl
+include cnn_model/trained_models/*.pth
+include cnn_model/VERSION
+include cnn_model/config.yml
+
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
