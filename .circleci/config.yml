@@ -62,7 +62,7 @@ jobs:
             tox -e fetch_data
       - run:
           name: List trained models
-          command: ls -l model_package/cnn_model/trained_models/            
+          command: ls -l cnn_model/trained_models/            
       - run:
           name: Test the model
           command: |
