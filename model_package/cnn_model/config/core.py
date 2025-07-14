@@ -9,7 +9,7 @@ import cnn_model
 PACKAGE_ROOT = Path(cnn_model.__file__).resolve().parent
 ROOT = PACKAGE_ROOT.parent
 CONFIG_FILE_PATH = PACKAGE_ROOT / "config.yml"
-DATASET_DIR = PACKAGE_ROOT / "datasets"
+DATASET_DIR = PACKAGE_ROOT / "datasets" / "v2-plant-seedlings-dataset"
 TRAINED_MODEL_DIR = PACKAGE_ROOT / "trained_models"
 
 
