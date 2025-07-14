@@ -53,6 +53,10 @@ jobs:
           command: |
             pip install tox kaggle
       - run:
+          name: Make fetch_kaggle_large_dataset.sh executable
+          command: |
+            chmod +x ../scripts/fetch_kaggle_large_dataset.sh
+      - run:
           name: Fetch the data
           command: |
             tox -e fetch_data
