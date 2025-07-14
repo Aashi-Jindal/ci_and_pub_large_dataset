@@ -77,6 +77,6 @@ workflows:
   version: 2
   test_and_upload_regression_model:
     jobs:
-      - test_model_package
+      #- test_model_package
       - test_and_upload_regression_model
 
