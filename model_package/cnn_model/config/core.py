@@ -3,10 +3,11 @@ from typing import List
 
 from pydantic import BaseModel
 from strictyaml import load
+import os
+# import cnn_model
 
-import cnn_model
-
-PACKAGE_ROOT = Path(cnn_model.__file__).resolve().parent
+# PACKAGE_ROOT = Path(cnn_model.__file__).resolve().parent
+PACKAGE_ROOT = Path(os.getenv("PACKAGE_ROOT", Path(__file__).resolve().parent))
 ROOT = PACKAGE_ROOT.parent
 CONFIG_FILE_PATH = PACKAGE_ROOT / "config.yml"
 DATASET_DIR = PACKAGE_ROOT / "datasets" / "v2-plant-seedlings-dataset"
